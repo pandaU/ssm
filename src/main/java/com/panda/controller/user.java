@@ -1,6 +1,7 @@
 package com.panda.controller;
 
 import com.panda.pojo.User;
+import com.panda.pojo.UserDb;
 import com.panda.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -28,4 +29,5 @@ public class user {
         model.addAttribute("list","hello  linux");
         return  "User";
     }
+
 }

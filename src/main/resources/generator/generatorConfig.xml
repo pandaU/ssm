@@ -18,7 +18,7 @@ http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
 
         <!-- jdbc连接 -->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://localhost:3306/panda?useUnicode=true&amp;characterEncoding=utf8" userId="root"
+                        connectionURL="jdbc:mysql://localhost:3306/myblog?useUnicode=true&amp;characterEncoding=utf8" userId="root"
                         password="root" />
 
         <!-- 类型转换 -->
@@ -52,8 +52,8 @@ http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
         </javaClientGenerator>
 
         <!-- 配置表信息 -->
-        <table tableName="sql_user"
-               domainObjectName="User" enableCountByExample="false"
+        <table tableName="roles"
+               domainObjectName="Roles" enableCountByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                enableUpdateByExample="false">
             <!-- schema即为数据库名 tableName为对应的数据库表 domainObjectName是要生成的实体类 enable*ByExample
